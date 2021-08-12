@@ -23,7 +23,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  animated_text_kit: ^4.2.1
+  google_fonts: ^2.1.0
   shared_preferences: ^2.0.6
+  flutter_datetime_picker: ^1.5.1
+
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -35,7 +39,16 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_native_splash: ^1.2.1
+  double_back_to_close_app: ^2.0.1
+  image_picker: ^0.8.3+2
+  google_fonts: ^2.1.0
+  animated_text_kit: ^4.2.1
+  shared_preferences: ^2.0.6
 
+flutter_native_splash:
+  color:"#ffffff"
+  images assets/
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
@@ -63,7 +76,13 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
+#  fonts:
+#    -family: Nutino
+#      fonts:
+#        - asset: font/Nutino-Regular.ttf
+
+
+
   #   - family: Schyler
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf
